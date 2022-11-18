@@ -11,7 +11,7 @@ class HomePageCubit extends Cubit<int> {
     emit(mathRepo.topla(val1, val2));
   }
 
-  void carpma(String val1, String val2) {
+  void multiple(String val1, String val2) {
     emit(mathRepo.carp(val1, val2));
   }
 }

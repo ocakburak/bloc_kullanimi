@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                     onPressed: () {
                       String alinanSayi1 = tfSayi1.text;
                       String alinanSayi2 = tfSayi2.text;
-                      context.read<HomePageCubit>().carpma(
+                      context.read<HomePageCubit>().multiple(
                             alinanSayi1,
                             alinanSayi2,
                           );
