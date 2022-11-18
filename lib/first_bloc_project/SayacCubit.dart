@@ -4,12 +4,12 @@ class SayacCubit extends Cubit<int> {
   SayacCubit() : super(0);
 
   void sayaciArttir() {
-    int sayac = state + 1;
-    emit(sayac);
+    int count = state + 1;
+    emit(count);
   }
 
-  void sayaciAzalt(int miktar) {
-    int sayac = state - miktar;
-    emit(sayac);
+  void sayaciAzalt(int num) {
+    int count = state - num;
+    emit(count);
   }
 }
