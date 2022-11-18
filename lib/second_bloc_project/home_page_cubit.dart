@@ -7,7 +7,7 @@ class HomePageCubit extends Cubit<int> {
 
   var mathRepo = MathsRepository();
 
-  void toplama(String val1, String val2) {
+  void add(String val1, String val2) {
     emit(mathRepo.topla(val1, val2));
   }
 
