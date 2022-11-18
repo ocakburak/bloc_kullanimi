@@ -1,7 +1,7 @@
-import 'package:bloc_kullanimi/first_bloc_project/SayacCubit.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'package:bloc_kullanimi/first_bloc_project/SayacCubit.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({Key? key}) : super(key: key);
