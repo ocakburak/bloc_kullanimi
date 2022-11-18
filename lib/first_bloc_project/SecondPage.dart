@@ -30,13 +30,13 @@ class SecondPage extends StatelessWidget {
               onPressed: () {
                 context.read<SayacCubit>().sayaciArttir();
               },
-              child: const Text('Sayaç ARTTIR'),
+              child: const Text('Count UP'),
             ),
             ElevatedButton(
               onPressed: () {
-                context.read<SayacCubit>().sayaciAzalt(2);
+                context.read<SayacCubit>().sayaciAzalt(1);
               },
-              child: const Text('Sayaç AZALT'),
+              child: const Text('Count DOWN'),
             ),
           ],
         ),
